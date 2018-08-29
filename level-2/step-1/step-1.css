@@ -18,6 +18,9 @@
     width: 100px;
     height: 40px;
     background: #536A63;
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 350px;;
 }
 
 .logo {
@@ -25,19 +28,25 @@
     height: 40px;
     margin-top: 10px;
     background: #536A63;
+    display: inline-block;
 }
 
 .sign-in {
     width: 100px;
     height: 40px;
     background: #536A63;
+    display: inline-block;
+    margin-right: 15px;
+    margin-left: 350px;
 }
 
-/*  Step-1 Make this container overhang off its parent container using display and bottom properties.  */
+/*  Step-1 Make this container overhang off its parent container using *position* (DevMtn instructions say display, but it is actually position you need to use) and bottom properties.  */
 
 .bottom-container {
     width: 60%;
     height: 60px;
     left: 22%;
     background: #536A63;
+    position: absolute;
+    bottom: -30px;
 }
